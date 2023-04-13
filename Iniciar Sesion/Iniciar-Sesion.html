@@ -7,32 +7,26 @@
     <title> Sing in</title>
     <link rel="stylesheet" href="diceño.css">
 </head>
-<body>
-    <!--creamos el titulo-->
-    <h1>Sing in</h1>
+<body class="vs">
     <!--usamos div para facilitar el desarrollo-->
-    <div>
-        <div>
-           <p>Name</p>
-            <form>
-                <input type="text">
-            </form>
-        </div>
-        <div>
-            <p>Password</p>
-             <form>
-                 <input type="password">
-             </form>
-         </div>
-         <div>
-            <a href="create-count.html" target="_self">Create Count</a>
-         </div>
-         <div>
-            <a href="Forgt-Password.html" target="_self">Forget Password</a>
-         </div>
-         <div>
-            <a href="pagina-principal.html" target="_self">GO</a>
-         </div>
+    <div class="formulario">
+        <!--creamos el titulo-->
+        <h1>Sing in</h1>
+        <form method="post">
+            <div class="username">
+                <input type="text" required>
+                <label>Name</label>
+            </div>
+            <div class="password">
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <div class="recordar">¿Olvido su contraseña? <a href="Forgt-Password.html" target="_self">Forget Password</a></div>
+            <input type="submit" value="Log In">
+            <div class="registrarse">
+                quiero hacer el <a href="create-count.html" target="_self">Create Count</a>
+            </div>
+        </form>
     </div>
 </body>
 </html>
