@@ -1,5 +1,8 @@
 boby {
-    background: url(fondo.jpg);   
-           background-size: cover;
-           background-repeat: no-repeat;
+    background: url(fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    text-align: center;
 }
