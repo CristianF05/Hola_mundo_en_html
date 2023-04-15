@@ -51,7 +51,7 @@ form .name{
 .name input:focus ~ label,
 .name input:focus ~ label{
     top: -5px;
-    color: #166b3e;
+    color: #020403;
 }
 .name input:focus ~ span::before,
 .name input:focus ~ span::before{
@@ -71,4 +71,19 @@ input[type="submit"]{
 input[type="submit"]:hover{
     border-color: purple;
     transition: .5s;
+}
+.ls{
+    display: block;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 15px 110px;
+    padding: 15px 30px;
+    background-color: #3641d4;
+    color: #fff;
+    text-decoration: none;
+}
+.ls a{
+    color: rgb(238, 239, 245);
 }

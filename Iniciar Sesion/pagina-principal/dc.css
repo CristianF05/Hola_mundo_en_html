@@ -1,0 +1,32 @@
+.mn{
+    background: url(gt.jpg);   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: #fff;
+    text-align: center;
+}
+  .ls{
+    display: block;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 100px 905px;
+    padding: 15px 15px;
+    background-color: #f10028;
+    color: #000000;
+}
+
+.ds{
+  display: block;
+  width: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  border-radius: 10px;
+  margin: 100px 805px;
+  padding: 35px 105px;
+  background-color: #000000;
+  color: #fa3535;
+}
